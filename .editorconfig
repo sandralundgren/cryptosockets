@@ -1,0 +1,9 @@
+# top-most EditorConfig file
+root = true
+
+# Indentation override for all JS
+[*.js]
+indent_style = space
+indent_size = 2
+charset = utf-8
+quote_type = single

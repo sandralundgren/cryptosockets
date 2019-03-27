@@ -1,0 +1,19 @@
+.icon {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.icon.drag-icon {
+  height: 20px;
+  padding-right: 1rem;
+}
+
+.icon.trash-icon {
+  height: 20px;
+}
+
+.icon.error-icon {
+  height: 20px;
+  fill: #040303;
+  padding-right: 5px;
+}

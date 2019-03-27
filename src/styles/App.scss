@@ -1,0 +1,32 @@
+.main-container {
+  background-color: #f6f6f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.message-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.coin__error {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.src-description {
+  color: #868686;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+@import '_dropdown';
+@import '_icons';
+@import '_spinner';
